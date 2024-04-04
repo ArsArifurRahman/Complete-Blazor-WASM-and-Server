@@ -36,3 +36,6 @@ C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\Boo
 C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\BookStore.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\BookStore.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\BookStore.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\BookStore.API\bin\Debug\net8.0\Serilog.Expressions.dll
+C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\BookStore.API\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\BookStore.API\bin\Debug\net8.0\Serilog.Sinks.Seq.dll

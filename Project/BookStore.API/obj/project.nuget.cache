@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wFCd60MAZ6E7sr8+Q//roi9RdYg8abzuJ2Auh4wqCKtrH7eBbDwju3olsHlXZV967ZXAe7zDXW5W3gFzvLPWcg==",
+  "dgSpecHash": "jdWbae3xF/DoVdtwsw5/JWc1h5rPqDom6ZAba6q/tAc1wj8D9stvLiT7nivZY1tti3j+tAcqk2P+mtFBuDf9gQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\BookStore.API.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\arsns\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\arsns\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\arsns\\.nuget\\packages\\serilog.aspnetcore\\8.0.1\\serilog.aspnetcore.8.0.1.nupkg.sha512",
+    "C:\\Users\\arsns\\.nuget\\packages\\serilog.expressions\\4.0.0\\serilog.expressions.4.0.0.nupkg.sha512",
     "C:\\Users\\arsns\\.nuget\\packages\\serilog.extensions.hosting\\8.0.0\\serilog.extensions.hosting.8.0.0.nupkg.sha512",
     "C:\\Users\\arsns\\.nuget\\packages\\serilog.extensions.logging\\8.0.0\\serilog.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\arsns\\.nuget\\packages\\serilog.formatting.compact\\2.0.0\\serilog.formatting.compact.2.0.0.nupkg.sha512",
@@ -25,9 +26,12 @@
     "C:\\Users\\arsns\\.nuget\\packages\\serilog.sinks.console\\5.0.0\\serilog.sinks.console.5.0.0.nupkg.sha512",
     "C:\\Users\\arsns\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\arsns\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\arsns\\.nuget\\packages\\serilog.sinks.periodicbatching\\4.0.0\\serilog.sinks.periodicbatching.4.0.0.nupkg.sha512",
+    "C:\\Users\\arsns\\.nuget\\packages\\serilog.sinks.seq\\7.0.0\\serilog.sinks.seq.7.0.0.nupkg.sha512",
     "C:\\Users\\arsns\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\arsns\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\arsns\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+    "C:\\Users\\arsns\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\arsns\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }
