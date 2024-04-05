@@ -1,6 +1,19 @@
+using BookStore.API.Configurations;
+using BookStore.API.Data;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<DataContext>(option =>
+{
+    option
+    .UseSqlServer(builder
+    .Configuration.
+    GetConnectionString("defaultConnection"));
+});
+
+builder.Services.AddAutoMapper(typeof(MapperConfiguration));
 
 builder.Services.AddControllers();
 

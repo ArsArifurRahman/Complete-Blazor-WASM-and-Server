@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|c:\\users\\arsns\\onedrive\\desktop\\work\\complete-blazor-wasm-and-server\\project\\bookstore.api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|c:\\users\\arsns\\onedrive\\desktop\\work\\complete-blazor-wasm-and-server\\project\\bookstore.api\\extensions\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\extensions\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|c:\\users\\arsns\\onedrive\\desktop\\work\\complete-blazor-wasm-and-server\\project\\bookstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Extensions\\Messages.cs",
+              "RelativeDocumentMoniker": "BookStore.API\\Extensions\\Messages.cs",
+              "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Extensions\\Messages.cs",
+              "RelativeToolTip": "BookStore.API\\Extensions\\Messages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T05:02:24.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "BookStore.API\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "BookStore.API\\Controllers\\AuthorController.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAuwIIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T19:04:20.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Program.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Program.cs",
               "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Program.cs",
               "RelativeToolTip": "BookStore.API\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAYwA8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T15:00:50.535Z",
               "EditorCaption": ""
