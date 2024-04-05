@@ -114,3 +114,21 @@ BookStore.API.Controllers.AuthorController.PutAuthor (BookStore.API)
 2024-04-05 11:24:51.746 +06:00 [INF] Application started. Press Ctrl+C to shut down.
 2024-04-05 11:24:51.812 +06:00 [INF] Hosting environment: Development
 2024-04-05 11:24:51.815 +06:00 [INF] Content root path: C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\BookStore.API
+2024-04-05 11:47:25.081 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-05 11:47:25.164 +06:00 [INF] Hosting environment: Development
+2024-04-05 11:47:25.166 +06:00 [INF] Content root path: C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\BookStore.API
+2024-04-05 11:47:28.727 +06:00 [WRN] Record not found: GetAuthor - ID: 6
+2024-04-05 11:47:29.575 +06:00 [WRN] Author record not found: PutAuthor - ID: 6
+2024-04-05 11:48:16.487 +06:00 [WRN] Record not found: GetAuthor - ID: 6
+2024-04-05 11:48:16.629 +06:00 [WRN] Author record not found: PutAuthor - ID: 6
+2024-04-05 11:48:54.966 +06:00 [WRN] Record not found: GetAuthor - ID: 6
+2024-04-05 11:48:55.161 +06:00 [WRN] Update ID invalid in PutAuthor - ID: 7
+2024-04-05 15:56:19.721 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-05 15:56:19.825 +06:00 [INF] Hosting environment: Development
+2024-04-05 15:56:19.827 +06:00 [INF] Content root path: C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\BookStore.API
+2024-04-05 16:20:21.863 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-05 16:20:21.949 +06:00 [INF] Hosting environment: Development
+2024-04-05 16:20:21.951 +06:00 [INF] Content root path: C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\BookStore.API
+2024-04-05 16:51:20.818 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-05 16:51:20.927 +06:00 [INF] Hosting environment: Development
+2024-04-05 16:51:20.932 +06:00 [INF] Content root path: C:\Users\arsns\OneDrive\Desktop\Work\Complete-Blazor-WASM-and-Server\Project\BookStore.API

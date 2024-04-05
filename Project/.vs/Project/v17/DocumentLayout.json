@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|c:\\users\\arsns\\onedrive\\desktop\\work\\complete-blazor-wasm-and-server\\project\\bookstore.api\\entities\\book\\bookreadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\entities\\book\\bookreadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|c:\\users\\arsns\\onedrive\\desktop\\work\\complete-blazor-wasm-and-server\\project\\bookstore.api\\entities\\book\\bookdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\entities\\book\\bookdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|c:\\users\\arsns\\onedrive\\desktop\\work\\complete-blazor-wasm-and-server\\project\\bookstore.api\\entities\\book\\bookcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\entities\\book\\bookcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|c:\\users\\arsns\\onedrive\\desktop\\work\\complete-blazor-wasm-and-server\\project\\bookstore.api\\configurations\\mapperconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\configurations\\mapperconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|c:\\users\\arsns\\onedrive\\desktop\\work\\complete-blazor-wasm-and-server\\project\\bookstore.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|c:\\users\\arsns\\onedrive\\desktop\\work\\complete-blazor-wasm-and-server\\project\\bookstore.api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|c:\\users\\arsns\\onedrive\\desktop\\work\\complete-blazor-wasm-and-server\\project\\bookstore.api\\extensions\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\extensions\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|c:\\users\\arsns\\onedrive\\desktop\\work\\complete-blazor-wasm-and-server\\project\\bookstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD611FA3-1D0F-42E5-8438-B1DADB317CF2}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Messages.cs",
-              "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Extensions\\Messages.cs",
-              "RelativeDocumentMoniker": "BookStore.API\\Extensions\\Messages.cs",
-              "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Extensions\\Messages.cs",
-              "RelativeToolTip": "BookStore.API\\Extensions\\Messages.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "BookReadViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Entities\\Book\\BookReadViewModel.cs",
+              "RelativeDocumentMoniker": "BookStore.API\\Entities\\Book\\BookReadViewModel.cs",
+              "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Entities\\Book\\BookReadViewModel.cs",
+              "RelativeToolTip": "BookStore.API\\Entities\\Book\\BookReadViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T05:02:24.555Z",
+              "WhenOpened": "2024-04-05T10:53:28.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "BookStore.API\\Controllers\\AuthorController.cs",
-              "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "BookStore.API\\Controllers\\AuthorController.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAuwIIAAAAuAAAA",
+              "DocumentIndex": 1,
+              "Title": "BookDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Entities\\Book\\BookDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "BookStore.API\\Entities\\Book\\BookDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Entities\\Book\\BookDetailsViewModel.cs",
+              "RelativeToolTip": "BookStore.API\\Entities\\Book\\BookDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T19:04:20.703Z",
+              "WhenOpened": "2024-04-05T10:53:22.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MapperConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Configurations\\MapperConfiguration.cs",
+              "RelativeDocumentMoniker": "BookStore.API\\Configurations\\MapperConfiguration.cs",
+              "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Configurations\\MapperConfiguration.cs",
+              "RelativeToolTip": "BookStore.API\\Configurations\\MapperConfiguration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:51:57.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Program.cs",
-              "RelativeDocumentMoniker": "BookStore.API\\Program.cs",
-              "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Program.cs",
-              "RelativeToolTip": "BookStore.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA5AAAA",
+              "Title": "BookCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Entities\\Book\\BookCreateViewModel.cs",
+              "RelativeDocumentMoniker": "BookStore.API\\Entities\\Book\\BookCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Entities\\Book\\BookCreateViewModel.cs",
+              "RelativeToolTip": "BookStore.API\\Entities\\Book\\BookCreateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T15:00:50.535Z",
+              "WhenOpened": "2024-04-05T10:49:52.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "BookStore.API\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "BookStore.API\\Controllers\\AuthorController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T09:47:31.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "BookStore.API\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\arsns\\OneDrive\\Desktop\\Work\\Complete-Blazor-WASM-and-Server\\Project\\BookStore.API\\Controllers\\BookController.cs",
+              "RelativeToolTip": "BookStore.API\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAuwAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T05:43:33.232Z",
               "EditorCaption": ""
             }
           ]
