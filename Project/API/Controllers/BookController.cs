@@ -3,118 +3,122 @@ using API.Entities.Models;
 using API.Entities.ViewModels.Book;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Controllers
+namespace API.Controllers;
+
+[Route("api/[controller]")]
+[ApiController]
+[Authorize]
+public class BookController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class BookController : ControllerBase
+    private readonly DataContext _context;
+    private readonly IMapper _mapper;
+
+    public BookController(DataContext context, IMapper mapper)
     {
-        private readonly DataContext _context;
-        private readonly IMapper _mapper;
+        _context = context;
+        _mapper = mapper;
+    }
 
-        public BookController(DataContext context, IMapper mapper)
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<BookRead>>> GetBooks()
+    {
+        return await _context
+            .Books
+            .Include(x => x.Author)
+            .ProjectTo<BookRead>(_mapper
+            .ConfigurationProvider)
+            .ToListAsync();
+    }
+
+    [HttpGet("{id}")]
+    public async Task<ActionResult<BookDetails>> GetBook(int id)
+    {
+        var book = await _context
+            .Books
+            .Include(x => x.Author)
+            .ProjectTo<BookDetails>(_mapper
+            .ConfigurationProvider)
+            .FirstOrDefaultAsync(x => x.Id == id);
+
+        if (book == null)
         {
-            _context = context;
-            _mapper = mapper;
+            return NotFound();
         }
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<BookRead>>> GetBooks()
+        return Ok(book);
+    }
+
+    [HttpPost]
+    [Authorize(Roles = "Administrator")]
+    public async Task<ActionResult<BookCreate>> PostBook(BookCreate bookCreate)
+    {
+        var book = _mapper.Map<Book>(bookCreate);
+        _context.Books.Add(book);
+        await _context.SaveChangesAsync();
+
+        return CreatedAtAction(nameof(GetBook), new { id = book.Id }, book);
+    }
+
+    [HttpPut("{id}")]
+    [Authorize(Roles = "Administrator")]
+    public async Task<IActionResult> PutBook(int id, BookUpdate bookUpdate)
+    {
+        if (id != bookUpdate.Id)
         {
-            return await _context
-                .Books
-                .Include(x => x.Author)
-                .ProjectTo<BookRead>(_mapper
-                .ConfigurationProvider)
-                .ToListAsync();
+            return BadRequest();
         }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<BookDetails>> GetBook(int id)
+        var book = await _context.Books.FindAsync(id);
+
+        if (book == null)
         {
-            var book = await _context
-                .Books
-                .Include(x => x.Author)
-                .ProjectTo<BookDetails>(_mapper
-                .ConfigurationProvider)
-                .FirstOrDefaultAsync(x => x.Id == id);
-
-            if (book == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(book);
+            return NotFound();
         }
 
-        [HttpPost]
-        public async Task<ActionResult<BookCreate>> PostBook(BookCreate bookCreate)
+        _mapper.Map(bookUpdate, book);
+        _context.Entry(book).State = EntityState.Modified;
+
+        try
         {
-            var book = _mapper.Map<Book>(bookCreate);
-            _context.Books.Add(book);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetBook), new { id = book.Id }, book);
         }
-
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutBook(int id, BookUpdate bookUpdate)
+        catch (DbUpdateConcurrencyException)
         {
-            if (id != bookUpdate.Id)
-            {
-                return BadRequest();
-            }
-
-            var book = await _context.Books.FindAsync(id);
-
-            if (book == null)
+            if (!BookExists(id))
             {
                 return NotFound();
             }
-
-            _mapper.Map(bookUpdate, book);
-            _context.Entry(book).State = EntityState.Modified;
-
-            try
+            else
             {
-                await _context.SaveChangesAsync();
+                throw;
             }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!BookExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteBook(int id)
+        return NoContent();
+    }
+
+    [HttpDelete("{id}")]
+    [Authorize(Roles = "Administrator")]
+    public async Task<IActionResult> DeleteBook(int id)
+    {
+        var book = await _context.Books.FindAsync(id);
+        if (book == null)
         {
-            var book = await _context.Books.FindAsync(id);
-            if (book == null)
-            {
-                return NotFound();
-            }
-
-            _context.Books.Remove(book);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            return NotFound();
         }
 
-        private bool BookExists(int id)
-        {
-            return _context.Books.Any(e => e.Id == id);
-        }
+        _context.Books.Remove(book);
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+    }
+
+    private bool BookExists(int id)
+    {
+        return _context.Books.Any(e => e.Id == id);
     }
 }

@@ -6,12 +6,12 @@ public class AuthorCreate
 {
     [Required]
     [StringLength(50)]
-    public string? FirstName { get; set; }
+    public string FirstName { get; set; }
 
     [Required]
     [StringLength(50)]
-    public string? LastName { get; set; }
+    public string LastName { get; set; }
 
     [StringLength(250)]
-    public string? Biography { get; set; }
+    public string Biography { get; set; }
 }
